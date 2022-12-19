@@ -246,6 +246,9 @@ public class AccountAction extends BaseAction {
         return Action.SUCCESS;
     }
 
+    // was 250 and 254
+    // now a bit lower
+
     private boolean newPasswordDoesNotMatchConfirmationPassword() {
         return !changePasswordForm.getNewPassword().equals(changePasswordForm.getConfirmationPassword());
     }
