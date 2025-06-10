@@ -1,0 +1,6 @@
+# Assign @octocat ownership of the 'log4shell-goof/' directory and its contents.
+/log4shell-goof/ @octocat
+
+# Assign @monalisa ownership of all other files in the repository.
+# This rule comes after, so it applies to everything not covered by the above.
+* @monalisa
